@@ -30,7 +30,7 @@ lein new aemette my-project +next
 
 ## License
 
-The `history.cljs` file is licensed under the [EPL](https://github.com/circleci/frontend/blob/master/LICENSE) and property of CircleCI's [frontend](https://github.com/circleci/frontend). As such, this disclaimer must appear in code distributed with this template.
+Parts of this template are originally taken from CircleCI's [frontend](https://github.com/circleci/frontend) and licensed under the [EPL](https://github.com/circleci/frontend/blob/master/LICENSE). As such, this disclaimer must appear in code distributed with this template.
 
 Copyright © 2015 António Nuno Monteiro
 
