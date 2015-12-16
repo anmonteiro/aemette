@@ -13,7 +13,7 @@ The generated `src` folder structure is organized in the following way:
 - `src/my-project/parser.cljs` — only generated in the Om Next case. Contains a sample Om Next parser implementation for the provided components;
 - `src/my-project/components/app.cljs` — main component which encapsulates the logic of rendering other components based on the current route;
 - `src/my-project/components/landing.cljs` — a sample component which is rendered by the main `App` component;
-- `src/my-project/controllers/navigation.cljs` — contains logic to handle route transitions
+- `src/my-project/controllers/navigation.cljs` — contains logic to handle route transitions.
 
 
 ## Usage
