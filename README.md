@@ -1,6 +1,6 @@
 # aemette
 
-A Leiningen template for Om.
+A batteries-included Leiningen template for Om.
 
 ## Description
 
