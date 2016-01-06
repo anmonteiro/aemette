@@ -1,5 +1,6 @@
 (ns {{name}}.history
   (:require [clojure.string :as string]
+            [goog.dom :as gdom]
             [goog.events :as events]
             [goog.history.Html5History :as html5-history]
             [secretary.core :as secretary]))
@@ -31,7 +32,7 @@
 
 
 (defn setup-link-dispatcher! [history-imp top-level-node]
-  (let [dom-helper (goog.dom.DomHelper.)]
+  (let [dom-helper ()]
     (events/listen top-level-node "click"
                    #(let [-target (.-target %)
                           target (if (= (.-tagName -target) "A")
@@ -88,7 +89,7 @@
 (defn new-history-imp [top-level-node]
   ;; need a history element, or goog will overwrite the entire dom
   ;; not sure if it's needed
-  (comment (let [dom-helper (goog.dom.DomHelper.)
+  (comment (let [dom-helper (gdom/DomHelper.)
         node (.createDom dom-helper "input" #js {:class "history hide"})]
     (.append dom-helper node)))
   (doto (goog.history.Html5History. js/window)
