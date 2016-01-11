@@ -71,7 +71,7 @@
                    #(if (= (.getToken history-imp)
                            (.-_current_token history-imp))
                       (js/console.log "Ignoring duplicate dispatch event to" (.getToken history-imp))
-                      (.onHistoryEvent_ history-imp)))))
+                      (.onHistoryEvent_ history-imp %)))))
 
 
 (defn setup-dispatcher!
