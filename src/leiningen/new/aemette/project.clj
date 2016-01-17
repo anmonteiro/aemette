@@ -2,7 +2,7 @@
   :description "FIXME: write this!"
   :url "http://example.com/FIXME"
   :dependencies [[org.clojure/clojure "1.7.0"]
-                 [org.clojure/clojurescript "1.7.170"]
+                 [org.clojure/clojurescript "1.7.228"]
                  [org.omcljs/om {{#om-legacy}}"0.9.0"{{/om-legacy}}{{^om-legacy}}"1.0.0-alpha28"{{/om-legacy}}]
                  [org.clojure/core.async "0.2.374"]
                  [secretary "1.2.3"]]
