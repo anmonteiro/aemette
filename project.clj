@@ -1,4 +1,4 @@
-(defproject aemette/lein-template "0.3.2"
+(defproject aemette/lein-template "0.4.0-SNAPSHOT"
   :description "A batteries-included Leiningen template for Om"
   :url "https://github.com/anmonteiro/aemette"
   :license {:name "Eclipse Public License"
