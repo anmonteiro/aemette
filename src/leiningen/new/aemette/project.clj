@@ -8,7 +8,7 @@
                  [secretary "1.2.3"]]
 
   :plugins [[lein-cljsbuild "1.1.2"]
-            [lein-figwheel "0.5.0-4"]]
+            [lein-figwheel "0.5.0-6"]]
 
   :source-paths ["src"]
   :clean-targets ^{:protect false} [[:cljsbuild :builds 0 :compiler :output-dir]
